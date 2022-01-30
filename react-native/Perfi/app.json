@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Perfi",
+    "scheme": "perfi",
+    "description": "The best money manager",
+    "slug": "perfi",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "orientation": "portrait",
+    "primaryColor": "#8BC34A",
+    "androidStatusBarColor": "#27ae60",
+    "androidStatusBar": {
+      "backgroundColor": "#27ae60",
+      "barStyle": "dark-content"
+    },
+    "icon": "./app/assets/images/app-icon.png",
+    "splash": {
+      "image": "./app/assets/images/splash.png",
+      "resizeMode": "cover"
+    },
+    "version": "2.0.0",
+    "android": {
+      "package": "com.apikodev.perfi"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apiko.perfi"
+    }
+  }
+}

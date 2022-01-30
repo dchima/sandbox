@@ -1,0 +1,48 @@
+{
+  "name": "cereal-main",
+  "version": "1.0.0",
+  "description": "main app for cereal",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node ./src/index.js",
+    "start": "node dist/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchima/cereal-main.git"
+  },
+  "keywords": [
+    "cereal",
+    "maiSn"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dchima/cereal-main/issues"
+  },
+  "homepage": "https://github.com/dchima/cereal-main#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^5.2.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.15.0",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}

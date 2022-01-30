@@ -1,0 +1,12 @@
+const isProduction = process.env.NODE_ENV === 'production';
+
+if (!isProduction) require('@babel/register');
+const path = require('path');
+
+module.exports = isProduction ? {
+  "config": path.resolve('./dist/config', 'config.js'),
+  "models-path": path.resolve('./dist/models')
+} : {
+   "config": path.resolve('./src/config', 'config.js'),
+  "models-path": path.resolve('./src/models')
+};

@@ -1,0 +1,18 @@
+<h1>Hey there boys</h1>
+<p>let's get popping!</p>
+
+{{ request.user }}
+
+<p>
+  {{ text}}, {{ number }}, {{ list }}
+</p>
+<ul>
+  {% for list_item in list %}
+  {% if list_item == 'Ten' %}
+  <div style="background-color: blue; height: 100px;">
+    <P>Hey</P>
+  </div>
+  {% endif %}
+    <li>{{ list_item }}</li>
+  {% endfor %}
+</ul>

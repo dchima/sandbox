@@ -1,0 +1,10 @@
+Rust:
+
+Cargo new [project]
+Cargo run
+	this runs a new instance of the cargo project.
+Cargo build
+	this builds the project but does not run it. Creates a target/build folder
+	with all the executables inside it. 
+Cargo build --release
+	this builds a production build. Creates a target/release folder

@@ -1,0 +1,8 @@
+{
+  "name": "node-java-test",
+  "version": "1.0.0",
+  "description": "small node test calling a java code at runtime and getting answers",
+  "main": "index.js",
+  "author": "Chima",
+  "license": "MIT"
+}
