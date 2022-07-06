@@ -9,7 +9,7 @@ async function execute_java(command){
 
 async function main() {
   console.log('running java tast');
-  const run_java = await execute_java('java helloWorld');
+  const run_java = await execute_java('java helloWorld cdvfb fgh');
   console.log('java output: ', run_java);
 }
 
